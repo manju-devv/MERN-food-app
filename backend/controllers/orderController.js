@@ -5,7 +5,7 @@ import axios from "axios";
 
 // const stripe = new Stripe(process.env)
 
-const frontend_url = "https://localhost:5173"
+const frontend_url = "https://mern-food-app-frontend-l50r.onrender.com/"
 //placing order from frontend 
 const placeOrder = async (req,res) => {
   try{
