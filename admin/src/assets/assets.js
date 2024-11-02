@@ -6,6 +6,7 @@ import prof_img from './pro.jpg';
 import add_icon from './add_icon_green.png';
 import order_icon from './th.jpg';
 
+export const url="https://mern-food-app-x891.onrender.com"
 
 export const assets = {
   logo,upload,parcel,prof_img,add_icon,order_icon
