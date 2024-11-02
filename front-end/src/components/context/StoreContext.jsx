@@ -8,7 +8,7 @@ export const StoreContext = createContext(null);
 
 function StoreContextProvider({children}){
     
-  const url = "http://localhost:4000";
+  const url = https://mern-food-app-x891.onrender.com;
   const [token,setToken] = useState("")
   const [curstate,setCurrState] = useState('SignUp');
   const [cartItems,setCartItems] = useState({});
