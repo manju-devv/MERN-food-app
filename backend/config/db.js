@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-const url = "mongodb+srv://manju:9666702088@cluster0.9btnx.mongodb.net/food-app";
+const url = "mongodb+srv://manju:DhfoTV3bxfF24uUj@cluster0.9btnx.mongodb.net/?appName=Cluster0/food-app";
 
 export const connectDB = async () =>{
   await mongoose.connect(url).then(()=>{
